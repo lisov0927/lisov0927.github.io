@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Page</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="/img/intro_img.jpg" alt="my photo" class="avatar">
+        <h1 class="header_title">Alexey Demidov | CV</h1>
+        <h2 class="header_subtitle">Frontend Developer</h2>
+    </header>
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list</summary>
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. JavaScript</li>
+                    <li>4. React</li>
+                    <li>5. Typescript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about me</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, sapiente ducimus at aut iste facilis doloribus qui fugit assumenda, veniam debitis cum totam incidunt, soluta sequi voluptatum eaque rerum? Laboriosam mollitia facilis eos, architecto eveniet incidunt accusantium, est dignissimos odio neque expedita maiores labore eum, perferendis beatae consequatur exercitationem ad.</p>
+        </article>
+
+        <section class="gallery"></section>
+        <h4>Gallery images</h4>
+        <img src="https://placehold.co/250x250" alt="gallery images">
+        <img src="https://placehold.co/250x250" alt="gallery images">
+        <img src="https://placehold.co/250x250" alt="gallery images">
+
+        <hr class="separator">
+
+        <section class="video">
+           <iframe class="video" src="https://www.youtube.com/embed/N-Fa1tm3oz0" title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+        <section class="hobbies">
+            <h4>My hobbies</h4>
+            <details>
+                <summary>Open</summary>
+                <ol class="hobbies_list">
+                    <li>Skiing</li>
+                    <li>Video editing</li>
+                    <li>Audio books</li>
+                </ol>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>School/Univercity</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>It school 1</td>
+                        <td>Angular Dev</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>It school 2</td>
+                        <td>React Dev</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>It school 3</td>
+                        <td>PHP Dev</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Действия - это единственный путь к успеху
+            </blockquote>
+        </section>
+
+        <section class="iteraction">
+            <form action="https://ya.ru" method="get" class="form" target="_blank">
+                <fieldset>
+                    <legend>Leave your contacts</legend>
+                <label for="firstName_ID">firstName:</label>
+                <input type="text" name="firstName" id="firstName_ID" placeholder="Enter your firstName" required class="form_control">
+
+                <label for="firstName_ID">lastName:</label>
+                <input type="text" name="lastName" id="lastName_ID" placeholder="Enter your lastName" required class="form_control">
+
+                
+                <label for="email_ID">lastName:</label>
+                <input type="email" name="email" id="email_ID" placeholder="Enter your email"
+                required class="form_control">
+
+                <label for="tel_ID">Telephone:</label>
+                <input type="tel" name="tel" id="tel_ID" placeholder="Enter your tel" required class="form_control">
+                </fieldset>
+                <br>
+                <textarea name="questions" id="1" cols="30" rows="10"
+                class="form_control control_text" placeholder="Enter your text"></textarea>
+                <button type="submit" class="form_submit">Submit</button>
+            </form> 
+        </section>
+        <hr class="separator">
+    </main> 
+
+
+    <footer>
+        <address class="footer_adress">
+            <a href="mailto:lesha@ya.ru">lesha@ya.ru</a>
+            <br>
+            <br>
+            <a href="tel:+79001348577">+79001348577</a>
+        </address>
+    </footer>
+</body>
+</html>
